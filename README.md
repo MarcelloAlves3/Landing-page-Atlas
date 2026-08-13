@@ -1,27 +1,38 @@
-Atlas — Equipamentos de Viagens e Trilhas
+ 🏔️ Atlas - Equipamentos de Viagens e Trilhas
 
-Landing page (one-page) de e-commerce para uma loja fictícia de equipamentos de trilha e camping, com identidade visual inspirada em tons terrosos (verde escuro, areia e ocre) e tipografia serifada para destaque editorial.
+Uma landing page responsiva e moderna desenvolvida para a **Atlas**, uma loja e-commerce fictícia focada em equipamentos para aventura, trekking e camping.
 
-📁 Estrutura do projeto
-atlas/
-├── index.html      # Estrutura e conteúdo da página
-└── style.css       # Estilos, tema visual e responsividade
+---
 
-Projeto simples, sem build tools, frameworks ou dependências — basta abrir o index.html no navegador.
+ 🛠️ O que foi feito na página
 
-🖥️ Seções da página
-Seção	Descrição
-Header	Logo "ATLAS.", navegação (Início, Categorias, Produtos, Sobre), ícone de carrinho com badge de quantidade e botão de menu para mobile
-Hero	Banner de destaque com imagem de fundo, chamada "Coleção Trilha 2026" e botão CTA "Ver Coleção"
-Categorias (#categorias)	Grid de 4 cards (Calçados, Mochilas, Camping, Acessórios) com imagem de fundo e overlay em gradiente
-Produtos / Mais Vendidos (#produtos)	Grid de 6 cards de produto, cada um com imagem, nome, preço e botão "Adicionar ao carrinho"
-Footer	4 colunas (Atlas, Ajuda, Categorias, Newsletter) + linha de copyright
-Produtos cadastrados atualmente
-Mochila Trilha 40L — R$ 349,00
-Bota Impermeável Rocha — R$ 499,00
-Barraca 2 pessoas — R$ 620,00
-Garrafa Térmica 1L — R$ 89,90
-Lanterna de Cabeça LED — R$ 69,90
-Bastão de Trekking (par) — R$ 159,00
+- **Cabeçalho (Header):**
+  - Logotipo e navegação principal com links âncora.
+  - Ícone de carrinho de compras com indicador numérico (*badge*).
+  - Botão de menu hamburguer preparado para telas menores/dispositivos móveis.
 
-As imagens usam o serviço Picsum Photos com seeds fixas (atlas-*), o que garante que a mesma imagem apareça sempre no lugar certo — mas são placeholders, não fotos reais dos produtos.
+- **Seção Hero (Banner Principal):**
+  - Apresentação da *Coleção Trilha 2026* com título chamativo, frase de impacto e botão de chamada para ação (*CTA*).
+
+ **Seção de Categorias:**
+  - Grade de cards estilizados com imagens de fundo cobrindo áreas de Calçados, Mochilas, Camping e Acessórios.
+
+ **Seção de Produtos (Mais Vendidos):**
+  - Grid de exibição de produtos contendo foto, nome, preço e botão para adicionar ao carrinho.
+
+ **Rodapé (Footer):**
+  - Organização em colunas para links de navegação, ajuda, categorias, newsletter e direitos autorais.
+
+---
+🚀 Tecnologias Utilizadas
+
+- **HTML5:** Estruturação semântica da página.
+- **CSS3:** Estilização, layout e responsividade (vinculado via `style.css`).
+
+---
+
+ 📂 Como executar o projeto
+
+1. Clone o repositório ou baixe os arquivos.
+2. Certifique-se de que o arquivo `style.css` esteja na mesma pasta do `index.html`.
+3. Abra o arquivo `index.html` em qualquer navegador web.
